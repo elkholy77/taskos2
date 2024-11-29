@@ -1,16 +1,13 @@
 on:
-    push:
-        branches:
-         - master
+  push:
+    branches:
+      - master
 
- jobs:
-    build:
-        runs-on: ubuntu-latest 
-    
-        steps:
-          - name: 'testing github action'
-            run: pwd
-
-
-          - name: 'testing printing'
-            run: echo Calculator
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Testing Github action'
+        run: pwd
+      - name: 'Testing Printing'
+        run: echo  Calculator
