@@ -8,7 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: 'task os 2'
-        run: ls
       - name: 'login to docker hub'
         run: docker login --username elkholy77 --password dckr_pat_Fis08eqhPBZSARgFeUCVhj-Ycco
